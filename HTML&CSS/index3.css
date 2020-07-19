@@ -1,0 +1,150 @@
+h1
+{
+  text-align: center;
+  text-shadow: transparent;
+  text-decoration-color: rgb(0,0,0,0.6);
+  text-underline-position: center;
+}
+.card 
+{
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  height: 500px;
+  margin-left: 20cm;
+  margin-top: 5cm;
+}  
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover 
+{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container 
+{
+  padding: 2px 16px;
+}
+body{
+  background-color:white;
+}
+
+
+.rectangle {
+  width: 200px;
+  height: 100px;
+  background: red;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+}
+.hr-text:before {
+  content: '';
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(#818078), to(transparent));
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 .5em;
+  line-height: 1.5em;
+  color: #818078;
+  background-color: #fcfcfa;
+}
+
+
+
+
+
+
+
+input[type=email]
+{
+  margin-top: 12mm;
+  margin-bottom: 5mm;
+  margin-left: 0.5cm;
+  width: 8.3cm;
+}
+
+input[type=password]
+{
+  margin-left: 0.5cm;
+  width: 8.3cm;
+}
+
+
+input[type=submit]
+{
+  color: red;
+  padding: 2mm;
+  width: 8.3cm;
+  margin-left: 0.5cm;
+  margin-top: 5mm;
+  background-color: cyan;
+}
+
+.forget{
+  margin-left: 5mm;
+  margin-top: 1mm;
+}
+
+input[type=button]
+{
+  color: red;
+  padding: 2mm;
+  width:8.3cm;
+  margin-bottom: 2mm;
+  margin-left: 0.5cm;
+}
+
+input[value=FB]
+{
+  color: red;
+  padding: 2mm;
+  width: 8.3cm;
+  margin-left: 0.5cm;
+  margin-top: 0.6cm;
+  background-color: dodgerblue;
+}
+
+input[value=G]
+{
+  background-color: lightsalmon;
+}
+
+input[value="<EPAM LOGIN>"]
+{
+  margin-top: 5mm;
+  width: 8.3cm;
+  background-color:rgb(202, 235, 17);
+}
+.ribbon-3 
+{
+  width: 400px;
+  height: 50px;
+  background: cyan;
+}
+
+.sign
+{
+  margin-left: 4.5cm;
+  padding-top: 4mm;
+}
